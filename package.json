@@ -1,0 +1,23 @@
+{
+  "name": "base37",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bikossor/base37.git"
+  },
+  "author": "André Lichtenthäler",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Bikossor/base37/issues"
+  },
+  "homepage": "https://github.com/Bikossor/base37#readme"
+}
