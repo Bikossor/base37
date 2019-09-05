@@ -1,7 +1,7 @@
 class base37 {
-    private alphabet: string = "0123456789abcdefghijklmnopqrstuvwxyz_";
+    private static alphabet: string = "0123456789abcdefghijklmnopqrstuvwxyz_";
 
-    public encode(inputString: string): string {
+    public static encode(inputString: string): string {
         var result: string = "";
 
         inputString.split('').forEach(char => {

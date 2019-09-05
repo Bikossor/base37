@@ -1,9 +1,8 @@
 "use strict";
 var base37 = /** @class */ (function () {
     function base37() {
-        this.alphabet = "0123456789abcdefghijklmnopqrstuvwxyz_";
     }
-    base37.prototype.encode = function (inputString) {
+    base37.encode = function (inputString) {
         var _this = this;
         var result = "";
         inputString.split('').forEach(function (char) {
@@ -12,6 +11,7 @@ var base37 = /** @class */ (function () {
         return result;
     };
     ;
+    base37.alphabet = "0123456789abcdefghijklmnopqrstuvwxyz_";
     return base37;
 }());
 ;
