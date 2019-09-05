@@ -1,9 +1,10 @@
 # base37
 
-## ✅ Features
+##  Features
 
-- No ambiguous charakters
+- No ambiguous characters
 - Easy to spell out
 - Easy to read
 - Completly URL-safe
-- No charakter overhead
+- Mobile-friendly
+    - A base37 string can be selected completely in one go
