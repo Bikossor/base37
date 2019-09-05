@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "main": "./dist/base37.js",
+  "types": "./dist/base37.d.ts",
   "directories": {
     "doc": "docs"
   },
