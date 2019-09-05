@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Bikossor/base37/issues"
   },
-  "homepage": "https://github.com/Bikossor/base37#readme"
+  "homepage": "https://github.com/Bikossor/base37#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.4"
+  }
 }

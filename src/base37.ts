@@ -11,3 +11,7 @@ class base37 {
         return result;
     };
 };
+
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = base37;
+}

@@ -15,3 +15,6 @@ var base37 = /** @class */ (function () {
     return base37;
 }());
 ;
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = base37;
+}
