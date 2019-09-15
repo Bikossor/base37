@@ -1,13 +1,14 @@
 {
   "name": "base37",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/base37.js",
+  "types": "./dist/base37.d.ts",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "tsc"
   },
   "repository": {
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Bikossor/base37/issues"
   },
-  "homepage": "https://github.com/Bikossor/base37#readme"
+  "homepage": "https://github.com/Bikossor/base37#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.4",
+    "jest": "^24.9.0"
+  }
 }

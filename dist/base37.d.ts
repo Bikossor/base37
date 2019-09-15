@@ -1,4 +1,4 @@
 declare class base37 {
-    private alphabet;
-    encode(inputString: string): string;
+    private static alphabet;
+    static encode(inputString: string): string;
 }
