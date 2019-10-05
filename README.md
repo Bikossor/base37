@@ -1,5 +1,5 @@
 # base37
-A one-way binary-to-text encoding algorithm
+A one-way binary-to-text encoding algorithm.
 
 [![Build Status](https://travis-ci.org/Bikossor/base37.svg?branch=develop)](https://travis-ci.org/Bikossor/base37)
 ![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/base37.svg)
